@@ -1,0 +1,11 @@
+input{
+    display: block;
+    width: 100%;
+}
+#enviar{
+    width: 60%;
+}
+.formulario{
+    background-color: red;
+    padding: 20px;
+}

@@ -1,0 +1,667 @@
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
+header {
+  margin-top: 39px;
+  margin-bottom: 39px;
+  display: flex;
+  align-items: center; /*vertical*/
+  height: 100%;
+  justify-content: space-between;
+}
+
+.email {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ebeaed;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /*horizontal*/
+  margin-right: 30px;
+}
+.restaurante {
+  color: #ff0f60;
+  margin-left: 20px;
+}
+.logoWhat{
+  width: 30px;
+  height: 30px;
+}
+.contenedor1 {
+  height: 451px;
+  width: 100%;
+  display: flex;
+  background-color: #ff0f60;
+  color: #ffe24c;
+}
+.infoC1 {
+  width: 50%;
+}
+.tituloC1 {
+  font-size: 43px;
+  font-weight: 700px;
+  padding-left: 103px;
+  padding-top: 109px;
+}
+.contenidoC1 {
+  font-size: 22px;
+  font-weight: 400px;
+  color:#fffbf2;
+  padding-top: 20px;
+  margin-left: 103px;
+  padding-right: 50px;
+}
+.cocineroC1 {
+  width: 50%;
+  min-width: 300px;
+}
+.cocinero {
+  width: 570px;
+  height: 451px;
+  margin-top: 53px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------              */
+.contenedor2 {
+  background-color: #ff0f60;
+  height: 790px;
+  padding-bottom: 30px;
+}
+.contenidoC2 {
+  text-align: center;
+}
+.tituloC2 {
+  color: #ffe24c;
+  font-size: 42px;
+  font-weight: 700px;
+  padding-top: 200px;
+}
+.infoC2 {
+  color:#fffbf2;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.caracteristicas{
+  margin-top: 95px;
+  display: flex;
+}
+.habi {
+  text-align: center;
+  margin: 75px;
+  margin-top: 0px;
+}
+.comida{
+  width: 300px;
+  height: 200px;
+}
+.titulos {
+  color: #ffe24c;
+  margin-bottom: 20px;
+}
+.info {
+  color: #fffbf2;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.contenedor3{
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 79px;
+}
+.experiencia{
+  color: #ffe24c;
+  font-size: 42px;
+  font-weight: 700;
+  padding-bottom: 20.2px;
+}
+.contenidoC3{
+  padding-left: 321px;
+  padding-right: 321px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #ff8633;
+  padding-bottom: 66.8px;
+}
+
+.contacto{
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  background: rgb(255,15,96);
+  background: linear-gradient(90deg, rgba(255,15,96,1) 0%, rgba(255,134,51,1) 51%, rgba(255,226,76,1) 100%);
+  border-radius: 25px;
+  padding: 12px 19px 12px  20px;
+  
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.contenedor4{
+  margin-bottom: 122px;
+}
+.primera, .segunda{
+  display: flex;
+  text-align: center;
+  margin: 16px;
+  justify-content: center;
+  
+}
+.imagent{
+  width: 370px;
+  height: 240px;
+  border-radius: 10px;
+}
+.tTrabajo{
+  color: #ff0f60;
+  font-weight: 900;
+}
+.trabajo{
+  margin: 16px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+    height: 715px;
+    text-align: center;
+    background-color: #ff0f60;
+    padding-bottom: 197.09px;
+}
+.mas{
+  padding-top: 25%;
+  margin-bottom: 137.03px;
+}
+.masinfo{
+  font-weight: 700;
+  font-size: 58px;
+  color: #ffe24c;
+}
+.correo{
+  font-size: 58px;
+  font-weight: 700;
+  color: #ff8633;
+}
+.linkContacto{
+  margin: 61.12px;
+  width: 21.89px;
+  height: 21.88px;
+}
+
+a{
+    text-decoration: none;
+}
+/*!--------1300---------*/
+@media (max-width: 1300px){
+  body{
+    width: 100%;
+  }
+  .contenedor1{
+    padding-bottom: 80px;
+  }
+  .contenedor2{
+    padding-bottom: 200px;
+    height: 1000px;
+  }
+  .infoC1{
+    width: 100%;
+    padding-top: 20px;
+  }
+  .habi{
+    font-size: 25px;
+  }
+  .cocinero{
+    width: 100%;
+    height: 409px;
+    
+  }
+  .tituloC1{
+    padding-bottom: 8px;
+  }
+  .imagent{
+    width: 270px;
+    height: 200px;
+  }
+  .masinfo, .correo{
+    font-size: 22px;
+  }
+  footer{
+    padding-bottom: 0px;
+    height: 50%;
+  }
+  .linkContacto{
+    margin: 3px;
+  }
+
+  .contenedor2{
+    padding-bottom: 100px;
+    height: 100%;
+  }
+  .contenidoC3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .contenidoC4{
+    padding-bottom: 20px;
+  }
+  .caracteristicas{
+    display: block;
+ }
+ .caracteristicasC2{
+  margin-bottom: 100px;
+}
+.trabajo{
+  padding: 16px;
+}
+.primera, .segunda{
+  display: flex;
+  
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.imagent{
+  width: 250px;
+  height: 250px;
+}
+.masinfo, .correo{
+  font-size: 45px;
+}
+}
+/*!--------900px--------*/
+@media (max-width: 900px){
+  body{
+    width: 100%;
+  }
+  .contenedor1{
+    display: block;
+    padding-bottom: 80px;
+  }
+  .contenedor2{
+    padding-bottom: 200px;
+    height: 1000px;
+  }
+  .infoC1{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+  .habi{
+    font-size: 25px;
+  }
+  .cocinero{
+    width: 100%;
+    height: 509px;
+    
+  }
+  .tituloC1{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 8px;
+  }
+  .imagent{
+    width: 270px;
+    height: 200px;
+  }
+  .masinfo, .correo{
+    font-size: 22px;
+  }
+  footer{
+    padding-bottom: 0px;
+    height: 50%;
+  }
+  .linkContacto{
+    margin: 3px;
+  }
+  .contenidoC1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+  }
+  .contenedor2{
+    padding-bottom: 100px;
+    height: 100%;
+  }
+  .contenidoC3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .contenidoC4{
+    padding-bottom: 20px;
+  }
+  .caracteristicas{
+    display: block;
+ }
+ .caracteristicasC2{
+  margin-bottom: 100px;
+}
+
+.primera, .segunda{
+  display: flex;
+}
+.imagent{
+  width: 200px;
+  height: 200px;
+}
+.masinfo, .correo{
+  font-size: 40px;
+}
+}
+
+/*!-----------------------766px--------*/
+@media (max-width: 766px){
+  body{
+    width: 100%;
+  }
+  .contenedor1{
+    display: block;
+    padding-bottom: 20px;
+    
+  }
+  .contenedor2{
+    padding-bottom: 200px;
+    height: 1000px;
+  }
+  .infoC1{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+  .cocinero{
+    width: 500px;
+    height: 409px;
+    padding-left: 20%;
+  }
+  .tituloC1{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 8px;
+  }
+  .imagent{
+    width: 270px;
+    height: 200px;
+  }
+  .masinfo, .correo{
+    font-size: 22px;
+  }
+  footer{
+    padding-bottom: 0px;
+    height: 50%;
+  }
+  .linkContacto{
+    margin: 3px;
+  }
+  .contenidoC1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+  }
+  .contenedor2{
+    padding-bottom: 100px;
+    height: 100%;
+  }
+  .contenidoC3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .contenidoC4{
+    padding-bottom: 20px;
+  }
+  .caracteristicas{
+    display: block;
+ }
+ .caracteristicasC2{
+  margin-bottom: 100px;
+}
+.primera, .segunda{
+  display: block;
+}
+.masinfo, .correo{
+  font-size: 35px;
+}
+}
+/*!---------------586px---------------*/
+@media (max-width: 586px){
+  
+    body{
+      width: 100%;
+    }
+    .contenedor1{
+      display: block;
+      padding-bottom: 20px;
+    }
+    .contenedor2{
+      padding-bottom: 200px;
+      height: 100%;
+    }
+    .infoC1{
+      text-align: center;
+      width: 100%;
+      padding-top: 20px;
+      
+    }
+    .cocineroC1{
+      padding-left: -80px;
+      margin-left: -80px;
+    }
+    .cocinero{
+      width: 500px;
+      height: 409px;
+    }
+    .tituloC1{
+      font-size: 30px;
+      margin: 0px;
+      padding: 0px;
+      padding-bottom: 8px;
+    }
+    .imagent{
+      width: 270px;
+      height: 200px;
+    }
+    .masinfo, .correo{
+      font-size: 22px;
+    }
+    footer{
+      padding-bottom: 0px;
+      height: 50%;
+    }
+    .linkContacto{
+      margin: 3px;
+    }
+    .contenidoC1{
+      padding: 0px;
+      margin: 0px;
+      font-size: 20px;
+    }
+    .contenedor2{
+      padding-bottom: 100px;
+    }
+    .contenidoC3{
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+    .contenidoC4{
+      padding-bottom: 20px;
+    }
+    .caracteristicas{
+      display: block;
+   }
+   .caracteristicasC2{
+    margin-bottom: 100px;
+  }
+  .primera, .segunda{
+    display: block;
+  }
+  .masinfo, .correo{
+    font-size: 30px;
+  }
+  }
+  
+
+/*!-------------500px-----------------*/
+@media (max-width: 500px){
+  body{
+    width: 100%;
+  }
+  .contenedor1{
+    display: block;
+    padding-bottom: 20px;
+  }
+  .contenedor2{
+    padding-bottom: 200px;
+    height: 100%;
+  }
+  .infoC1{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+  .cocinero{
+    width: 500px;
+    height: 409px;
+  }
+  .tituloC1{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 8px;
+  }
+  .imagent{
+    width: 270px;
+    height: 200px;
+  }
+  .masinfo, .correo{
+    font-size: 22px;
+  }
+  footer{
+    padding-bottom: 0px;
+    height: 50%;
+  }
+  .linkContacto{
+    margin: 3px;
+  }
+  .contenidoC1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+  }
+  .contenedor2{
+    padding-bottom: 100px;
+  }
+  .contenidoC3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .contenidoC4{
+    padding-bottom: 20px;
+  }
+  .caracteristicas{
+    display: block;
+ }
+ .caracteristicasC2{
+  margin-bottom: 100px;
+}
+.primera, .segunda{
+  display: block;
+}
+}
+/*!---------450px-----------------------*/
+@media (max-width: 450px){
+  body{
+    width: 100%;
+  }
+  .contenedor1{
+    display: block;
+    padding-bottom: 20px;
+  }
+  .contenedor2{
+    padding-bottom: 200px;
+    height: 100%;
+  }
+  .infoC1{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+  .cocineroroC1{
+    padding-left: 25px;
+  }
+  .cocinero{
+    width: 400px;
+    height: 409px;
+    
+  }
+  .tituloC1{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 8px;
+  }
+  .imagent{
+    width: 270px;
+    height: 200px;
+    
+  }
+  .masinfo, .correo{
+    font-size: 22px;
+  }
+  footer{
+    padding-bottom: 0px;
+    height: 50%;
+  }
+  .linkContacto{
+    margin: 3px;
+  }
+  .contenidoC1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+  }
+  .contenedor2{
+    padding-bottom: 100px;
+  }
+  .contenidoC3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .contenidoC4{
+    padding-bottom: 20px;
+  }
+  .habilidades{
+    display: block;
+ }
+ .misHabilidadesC2{
+  margin-bottom: 100px;
+}
+.primera, .segunda{
+  display: block;
+}
+}
+/**teminado de momento/

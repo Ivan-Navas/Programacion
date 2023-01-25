@@ -1,0 +1,48 @@
+
+.titulo2{
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    
+}
+.contenedorTrabajo{
+    width: 700px;
+    height: 460px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.imagenTrabajo{
+    width: 100%;
+    height: 330px;
+}
+.logoTecnologiaUsada{
+    width: 50px;
+}
+.trabajosp{
+    margin-left: 50px;
+    padding-bottom: 50px;
+    border: 1px solid hsl(181, 100%, 50%);
+    border-radius: 12px 0;
+    box-shadow: 2px 2px 20px 10px #00faff;
+}
+.abajo{
+    display: block;
+    padding-top: 20px;
+}
+.tecnologiaUsada{
+    text-align: left;
+}
+
+@media(max-width: 907px){
+    .contenedorTrabajo{
+        width: 100%;
+    }
+}
+@media(max-width: 420px){
+    .contenedorTrabajo{
+        height: 100%;
+    }
+}

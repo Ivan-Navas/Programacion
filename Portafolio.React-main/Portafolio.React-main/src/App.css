@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #00081a;
+}
+.App{
+
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+}
+.contenedorTecnologias{
+  display: flex;
+  flex-wrap: wrap;
+}
+.tecnologias{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.contenedorContenido{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorInformacion{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenido{
+  font-size: 40px;
+  color: white;
+  font-family: roboto, sans-serif;
+}
+.contenedorTrabajos{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.titulosh2{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.contenedorImagenesTrabajo{
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.Contacto{
+  margin-top: 30px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+@media(max-width: 1199px){
+    .contenedorInformacion{
+      width: 40%;
+      margin-left: 29px;
+    }
+    .contenido{
+      padding-left: 20px ;
+    }
+    .contenedorTrabajos{
+      height: 100%;
+      margin-bottom: 50px;
+  }
+  .Contacto{
+    height: 100%;
+  }
+  .titulosh2{
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 907px){
+  .contenedorTecnologias{
+    display: block;
+  }
+  .tecnologias{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .contenedorInformacion{
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 0;  
+  }
+  .contenedorTrabajos{
+    height: 100%;
+    margin-bottom: 50px;
+}
+.Contacto{
+  height: 100%;
+}
+}
+@media(max-width: 420px){
+  .contenedorTrabajos{
+      height: 100%;
+      margin-bottom: 50px;
+  }
+  .Contacto{
+    height: 100%;
+  }
+}
